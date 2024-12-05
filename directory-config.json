@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "directories": [
+    {
+      "path": "config",
+      "comment": "",
+      "children": []
+    },
+    {
+      "path": "images",
+      "comment": "",
+      "children": []
+    },
+    {
+      "path": "logs",
+      "comment": "",
+      "children": []
+    },
+    {
+      "path": "src",
+      "comment": "",
+      "children": []
+    }
+  ]
+}

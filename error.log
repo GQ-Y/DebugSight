@@ -1,0 +1,21 @@
+发生未处理的异常: Invalid control character at: line 2 column 81 (char 82)
+Traceback (most recent call last):
+  File "/Users/hook/py/VideoSj/main.py", line 68, in main
+    window = MainWindow()
+  File "/Users/hook/py/VideoSj/gui.py", line 283, in __init__
+    self.init_ui()
+  File "/Users/hook/py/VideoSj/gui.py", line 335, in init_ui
+    self.update_prompt_template_combo()
+  File "/Users/hook/py/VideoSj/gui.py", line 664, in update_prompt_template_combo
+    templates = load_prompt_templates()
+  File "/Users/hook/py/VideoSj/gui.py", line 53, in load_prompt_templates
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid control character at: line 2 column 81 (char 82)
