@@ -1,0 +1,15 @@
+# GUI 依赖
+PyQt5>=5.15.0
+
+# 视频处理
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# 打包工具
+pyinstaller>=4.5.0
+ratelimit>=2.2.1
+
+# 其他工具依赖
+pillow>=8.0.0  # 图像处理
+requests>=2.25.0  # 网络请求
+python-dotenv>=0.19.0  # 环境变量管理 
